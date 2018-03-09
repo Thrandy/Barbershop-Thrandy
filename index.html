@@ -5,8 +5,152 @@
     <title>HTML Academy: Барбершоп</title>
   </head>
   <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <!--General LOGO -->
+        <a class="main-navigation-logo"><img src="" alt="<Барбершоп Бородинский-лого"></a>
+        <ul class="main-navigation-site">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="price.html">Прайс-лист</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <!--Вход с дальнейшей прикруткой на аккаунт -->
+        <!--Как макака сделал как на лекции через список -->
+        <!-- SPAN or H. -->
+        <ul class="entry">
+          <li class="entry-link">Вход</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="hidden">Барбершоп Бородинский</h1>
+      <section class="features">
+        <h2 class="hidden">Фичи</h2>
+        <ul class="features-list">
+          <li class="features-item">
+            <h3 class="features-heading">Быстро</h3>
+            <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и
+              вы - счастливый обладатель стильной стрижки - минутки!</p>
+          </li>
+          <li class="features-item">
+            <h3 class="features-heading">Круто</h3>
+            <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду
+              футбола или кино! Во всяком случае внешне. </p>
+          </li>
+          <li class="features-item">
+            <h3 class="features-heading">Дорого</h3>
+            <p>Наши Мастера - профессионалы своего дела и не могут стоить
+              дешево. К тому же, разве цена не дает определенный статус?</p>
+          </li>
+        </ul>
+      </section>
+      <section class="news">
+        <h3>Новости</h3>
+        <ul class="news-list">
+          <li class="news-list-description">
+            <p>Нам наконец завезли ягермейстер! Теперь вы можете пропустить
+              стаканчик во время стрижки</p>
+            <time datetime="2018-01-11">11 января</time>
+          </li>
+          <li class="news-list-description">
+            <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель
+               множества титулов и наград пополнил наши стройные ряды</p>
+            <time datetime="2018-01-18">18 января</time>
+          </li>
+        </ul>
+        <a href="news.html" class="button">Все новости</a>
+      </section>
+      <section class="photo-gallery">
+        <h3>Фотогаллерея</h3>
+        <figure class="photo-gallery-img">
+          <!-- Понятно-непонятно -->
+          <!-- H. -->
+          <a href=""><img src="" alt="mini-photo-barbershop"></a>
+        </figure>
+        <!-- Пока непонятно почему здесь должны быть спаны -->
+        <!-- Пока пускай побудут кнопочки -->
+        <button>Назад</button>
+        <button>Вперед</button>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+
+
+      </section>
+      <section class="contacts">
+        <h3>Контактная информация</h3>
+        <!-- Может быть я зря зафигачил сюда список(а потом еще и еще...),
+        но почему-то мне так захотелось -->
+        <ul class="contacts-list">
+          <li class="contacts-list_contacts-info">
+            <!-- Бугагашеньки -->
+            <ul class="contacts-info_contacts-points">
+              <li class="contacts-points_item">Барбершоп "Бородинский"</li>
+              <!-- <ADRESS></ADRESS> -->
+              <li class="contacts-points_item">
+                <span>Адрес:</span>
+                <adress>г.Санкт-Петербург, Б.Конюшенная, д.19/8</adress>
+              </li>
+              <!-- <a href="tel: +7 (495) 666-02-66" class="telephone-number"></a> -->
+              <li class="contacts-points_item">Телефон: +7 (495) 666-02-66 </li>
+            </ul>
+
+          </li>
+          <li class="contacts-list_contacts-info">
+            <!-- Еще раз Бугагашеньки -->
+            <ul class="contacts-info_contacts-points">
+              <li class="contacts-points_item">Время работы:</li>
+              <li class="contacts-points_item">ПН-ПТ: с 10:00 до 22:00</li>
+              <li class="contacts-points_item">СБ-ВС: с 10:00 до 19:00</li>
+            </ul>
+          </li>
+        </ul>
+
+        <a href="map.html" class="button">Как проехать</a>
+        <a href="contacts.html" class="button">Обратная связь</a>
+      </section>
+      <section class="appointment">
+        <h3>Записаться</h3>
+        <p>Укажите желаемую дату и время и мы свяжемся с вами
+          для подтверждения брони</p>
+        <!-- Здесь будет форма, не лезь, а то убьет-->
+        <!-- Написал пока так, объяснено будет(уже) на 4 лекции -->
+        <input type="submit">
+        <input type="submit">
+        <input type="submit">
+        <input type="submit">
+        <button>Отправить</button>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <article class="main-footer_contacts">
+        <span class="main-footer_par">Барбершоп "Бородинский"</span>
+        <span class="main-footer_par">Адрес:
+          <address>г.Санкт-Петербург, Б.Конюшенная, д.19/8</address>
+        </span>
+
+        <span class="main-footer_par"> <a href="map.html">Как нас найти?</a> </span>
+        <span class="main-footer_par"> Телефон:
+          <a href="tel: +7 (495) 666-02-66" class="telephone-number"> +7 (495) 666-02-66</a>
+        </span>
+      </article>
+
+      <div class="main-footer_links">
+        <span class="links_heading">Давайте дружить!</span>
+        <ul class="links_site">
+          <li class="site_item"><a href="" class="social-button">Вконтакте</a></li>
+          <li class="site_item"><a href="" class="social-button">Фейсбук</a></li>
+          <li class="site_item"><a href="" class="social-button">Инстаграмм</a></li>
+        </ul>
+      </div>
+      <div class="main-footer_dev">
+        <span class="dev_title">Разработано:</span>
+        <a href="https://htmlacademy.ru" class="dev_site"></a></div>
+
+    </footer>
+
+
 
   </body>
 </html>
